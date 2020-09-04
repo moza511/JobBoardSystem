@@ -1,0 +1,69 @@
+body,
+html {
+    height: fit-content;
+    width: fit-content;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.wide {
+    width: 100%;
+    height: 100%;
+    height: calc(100% - 1px);
+    background-size: cover;
+}
+
+.wide img {
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(10, 162, 250);
+    text-shadow: 2px 2px 5px darkgrey;
+    font-family: "Times New Roman";
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.line {
+    padding-top: 20px;
+    white-space: no-wrap;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    border-width: 10px;
+}
+
+.orderblock {
+    border-radius: 25px;
+    border: 2px solid rgb(7, 122, 122);
+    padding: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 25px;
+    margin-bottom: -5px;
+    height: 130px;
+    width: 210px;
+}
+
+.box {
+    top: 10px;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    display: block;
+}
